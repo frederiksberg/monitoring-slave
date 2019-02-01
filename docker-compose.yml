@@ -5,8 +5,6 @@ services:
       context: ./telegraf
       dockerfile: ./Dockerfile
     image: frbsc/monitoring:telegraf
-    # environment:
-    #   HOSTNAME: "${uname -n}"
     env_file:
       - ./.env
     volumes:
