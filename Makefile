@@ -11,3 +11,6 @@ run: build
 
 deploy: build
 	docker-compose up -d
+	
+kill:
+	docker-compose down
