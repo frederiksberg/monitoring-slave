@@ -23,6 +23,16 @@ Or if you want to see debug output for testing:
 $ make run
 ```
 
+You can tear down the node again by running
+```shell
+$ make kill
+```
+
+And clean up stopped nodes by running
+```shell
+$ make clean
+```
+
 ## Dependencies
 * **make**
 * **docker**
